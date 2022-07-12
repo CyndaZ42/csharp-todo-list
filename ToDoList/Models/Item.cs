@@ -1,8 +1,8 @@
 using System;
 
-namespace ProjectName
+namespace ToDoList
 {
-  public class ClassName
+  public class Item
   {
     // properties, constructors, methods, etc. go here
     public static string Method(string behavior)

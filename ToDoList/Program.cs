@@ -1,11 +1,11 @@
 using System;
 
-namespace ProjectName {
+namespace ToDoList {
   public class Program
   {
     public static void Main()
     {
-      Console.WriteLine(ClassName.Method("Behavior"));
+      Console.WriteLine(Item.Method("Behavior"));
     }
   }
 }

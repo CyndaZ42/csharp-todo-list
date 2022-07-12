@@ -1,17 +1,17 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using ToDoList;
 
-namespace ProjectName.Tests
+namespace ToDoList.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class ItemTests
   {
     // Test methods go here
     [TestMethod]
     public void Method_Behavior_ReturnValue()
     {
       // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual("Behavior is behaving", ClassName.Method("Behavior"));
+      Assert.AreEqual("Behavior is behaving", Item.Method("Behavior"));
     }
   }
 }
